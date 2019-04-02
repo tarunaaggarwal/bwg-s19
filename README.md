@@ -1,11 +1,29 @@
-## bwg-s19
+## Welcome to the Bioinformatics Working Group @ [UC Santa Barbara](https://www.ucsb.edu/)
 
-All the material for our Bioinformatics Working Group will be posted in this repository. 
+All materials from our sessions will be posted in this repository. 
 
 ---
-## Week 1: Introduction to NGS technologies and Linux Basics
+### Week 1: [Introduction to NGS technologies and Linux Basics](https://github.com/tarunaaggarwal/bwg-s19/blob/master/presentations/Week1-Intro2NGStech-LinuxBasics.pdf)
 
-PDF version of the presentation Before we begin the pipeline, we want to share a directory structure we use in our lab, and we highly recommend you implement the same or a similar directory structure. Using this structure will not only help you stay organized, but will also help you understand and follow our pipeline with ease. 
+
+A. **How to generate and copy an SSH key to login into remote servers automatically**. More detailed instructions are [here](https://www.ssh.com/ssh/copy-id#sec-Setting-up-public-key-authentication).
+
+1. To generate SSH key, run `ssh-keygen`. The output will something like this:
+![SSH key output](https://www.dropbox.com/s/mqk2plz0d56k224/dir-struc-QIIME-small.png?raw=1)
+
+
+
+
+2. 
+	
+	
+2. **R1 fastq**
+	* This file contains reads returned by the sequencer first.
+
+3. **R2 fastq**
+	* This file contains reads returned by the sequencer second.
+
+If you want to pratice working on the command line on your own, please walk through the [Unix Shell tutorial](http://swcarpentry.github.io/shell-novice/) by Software Carpentry.
 
 ![Recommended directory structure for QIIME](https://www.dropbox.com/s/mqk2plz0d56k224/dir-struc-QIIME-small.png?raw=1)
 
