@@ -6,7 +6,7 @@ All materials from our sessions will be posted in this repository.
 ### Week 1: [Introduction to NGS technologies and Linux Basics](https://github.com/tarunaaggarwal/bwg-s19/blob/master/presentations/Week1-Intro2NGStech-LinuxBasics.pdf)
 
 
-A. **How to generate and copy an SSH key to login into remote servers automatically**. More detailed instructions are [here](https://www.ssh.com/ssh/copy-id#sec-Setting-up-public-key-authentication).
+#### A. **How to generate and copy an SSH key to login into remote servers automatically**. More detailed instructions are [here](https://www.ssh.com/ssh/copy-id#sec-Setting-up-public-key-authentication).
 
 1. To generate SSH key, run `ssh-keygen`. The output will something like this:
 
@@ -18,5 +18,6 @@ You may have to enter your password again.
 
 3. To test the key, run `ssh -i ~/.ssh/mykey user@host`. Now you should be able to login without typing your password.
 	
-
+#### B. **Practice Makes Perfect** 
+It would be great if you are able to run through this [Software Carpentry Shell Novice Tutorial](http://swcarpentry.github.io/shell-novice/) before next week. 
 
