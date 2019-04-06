@@ -39,9 +39,12 @@ You may have to enter your password again.
 
 <span style="color:blue; font-size:1.5em;"> **PC Users** </span>
 
-1. Please follow the instruction in [this online tutorial](https://www.youtube.com/watch?v=DDjSjC4SAYM) with a couple of caveats
+1. Please follow the instructions in [this online tutorial](https://www.youtube.com/watch?v=DDjSjC4SAYM) with a couple of caveats
+	
 	a. You do not need to `mkdir` an `~/.ssh` directory because it should already. In case it is not, only then make it and follow the instructions in the video.
+	
 	b. You do not need to change the port 22. 
+	
 2. Remember that under the `hostname`, you have to type `pod-login1.cnsi.ucsb.edu`. The dude in the video types an IP address.
 
 
