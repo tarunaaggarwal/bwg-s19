@@ -19,8 +19,11 @@ All materials from our sessions will be posted in this repository.
 2. When asked to `Enter file in which to save the key (/Users/YOURNAME/.ssh/id_rsa):`, just hit enter and DO NOT specify a file name. As you will notice here, the file is already set so we don't need to type another name.
 
  ![SSH key output](https://www.dropbox.com/s/tel2ic79jcf9pfl/ssh-key-4-macs.png?raw=1)
+
 3. When asked to `Enter passphrase (empty for no passphrase):`, just hit enter again and do not worry about creating a passphrase.
+
 4. Hit enter again to confirm you don't want a passphrase.
+
 5. You should get a message saying 
 ```
 Your identification has been saved in /Users/YOURNAME/.ssh/id_rsa.
@@ -31,7 +34,7 @@ Your public key has been saved in /Users/YOURNAME/.ssh/id_rsa.pub.
 
 You may have to enter your password again.
 
-3. To test the key, run `ssh -i ~/.ssh/mykey user@pod-login1.cnsi.ucsb.edu`. Now you should be able to login without typing your password.
+8. To test the key, run `ssh -i ~/.ssh/mykey user@pod-login1.cnsi.ucsb.edu`. Now you should be able to login without typing your password.
 	
 
 <span style="color:blue; font-size:1.5em;"> **PC Users** </span>
