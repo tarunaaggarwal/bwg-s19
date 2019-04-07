@@ -10,8 +10,7 @@ All materials from our sessions will be posted in this repository.
 
 ### A. **How to generate and copy an SSH key to login into remote servers automatically**. More detailed instructions are [here](https://www.ssh.com/ssh/copy-id#sec-Setting-up-public-key-authentication).
 
-<span style="color:blue; font-size:1.5em;"> **Mac Users** </span>
-
+#### Mac users
 
 * NOTE: The command prompt line is underlinded in pink in the image below.  
 
@@ -37,7 +36,7 @@ You may have to enter your password again.
 8. To test the key, run `ssh -i ~/.ssh/mykey user@pod-login1.cnsi.ucsb.edu`. Now you should be able to login without typing your password.
 	
 
-<span style="color:blue; font-size:1.5em;"> **PC Users** </span>
+#### PC users
 
 1. Please follow the instructions in [this online tutorial](https://www.youtube.com/watch?v=DDjSjC4SAYM) with a couple of caveats
 	
