@@ -13,10 +13,10 @@ All materials from our sessions will be posted in this repository.
 <span style="color:blue; font-size:1.5em;"> **Mac Users** </span>
 
 
-* NOTE: The command prompts are underlinded in pink in the image below.  
+* NOTE: The command prompt line is underlinded in pink in the image below.  
 
 1. To generate SSH key, run `ssh-keygen`. 
-2. When asked to `Enter file in which to save the key (/Users/YOURNAME/.ssh/id_rsa):`, just hit enter and DO NOT specify a file name. As you will notice here, the file is already set so we don't need to type another name.
+2. When asked to `Enter file in which to save the key (/Users/YOURNAME/.ssh/id_rsa):`, just hit enter and DO NOT specify a file name. As you will notice here, the file name is already set so we don't need to type another name.
 
  ![SSH key output](https://www.dropbox.com/s/tel2ic79jcf9pfl/ssh-key-4-macs.png?raw=1)
 
@@ -30,7 +30,7 @@ Your identification has been saved in /Users/YOURNAME/.ssh/id_rsa.
 Your public key has been saved in /Users/YOURNAME/.ssh/id_rsa.pub.
 ```
 6. Double that your files are in the right directory by running `ls ~/.ssh`. You should see two files starting with `id_`.
-7. Next, copy your SSH key to the remote server by running `ssh-copy-id -i ~/.ssh/mykey user@pod-login1.cnsi.ucsb.edu`
+7. Next, copy your SSH key to the remote server by running `ssh-copy-id -i ~/.ssh/id_rsa.pub user@pod-login1.cnsi.ucsb.edu`
 
 You may have to enter your password again.
 
@@ -51,5 +51,5 @@ You may have to enter your password again.
 ---
 ---
 #### B. **Practice Makes Perfect** 
-It would be great if you are able to run through this [Software Carpentry Shell Novice Tutorial](http://swcarpentry.github.io/shell-novice/) before next week. This way we don't have to spend too much reviewing and move into Qiime2 right away. 
+It would be great if you are able to run through this [Software Carpentry Shell Novice Tutorial](http://swcarpentry.github.io/shell-novice/) before next week. This way we don't have to spend too much reviewing, and we can move into Qiime2 right away. 
 
