@@ -3,8 +3,13 @@
 All materials from our sessions will be posted in this repository. 
 
 ---
+---
+---
+---
 ### Week 1: [Introduction to NGS technologies and Linux Basics](https://github.com/tarunaaggarwal/bwg-s19/blob/master/presentations/Week1-Intro2NGStech-LinuxBasics.pdf)
 
+---
+---
 ---
 ---
 
@@ -51,4 +56,25 @@ You may have to enter your password again.
 ---
 #### B. **Practice Makes Perfect** 
 It would be great if you are able to run through this [Software Carpentry Shell Novice Tutorial](http://swcarpentry.github.io/shell-novice/) before next week. This way we don't have to spend too much reviewing, and we can move into Qiime2 right away. 
+
+---
+---
+---
+---
+
+### Week 2: [Introduction to QIIME2](https://github.com/tarunaaggarwal/bwg-s19/blob/master/presentations/Week1-Intro2NGStech-LinuxBasics.pdf)
+
+---
+---
+---
+---
+
+### A. [QIIME2](https://qiime2.org/) is an open-source pipeline used to analyze and visualize microbial diversity. The biggest advantage of using Q2 is the support network. This tool is activately being developed and maintained. Most answers to your questions can be found at the [Q2 Google forum](https://forum.qiime2.org/). 
+
+1. Before we start, let's go over the [terms](https://docs.qiime2.org/2019.1/glossary/) and [core concepts](https://docs.qiime2.org/2019.1/concepts/) QIIME2 developers suggest new users know. 
+ 
+2. Install [anaconda](https://www.anaconda.com/distribution/#linux) and [QIIME2](https://docs.qiime2.org/2019.1/install/native/#install-qiime-2-within-a-conda-environment).
+
+3. `conda activate` your QIIME2 environment. 
+
 
