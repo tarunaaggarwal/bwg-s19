@@ -66,4 +66,65 @@ It would be great if you are able to run through this [Software Carpentry Shell 
 
 3. `conda activate` your QIIME2 environment. 
 
+---
+
+### Week 8: Making your code and figures more reproducible
+
+---
+
+> **Jupyter notebook** is an open-source application that allows one to create and share interactive code with others. You can create a Jupter notebook for any programming language such as Python and R. 
+
+> **[Binder](https://mybinder.org/)** allows you and other to interact with your notebooks live on a cloud computer. 
+
+
+### General Rmd, Jupyter, Binder Instructions. For more info, click [here](https://mybinder.readthedocs.io/en/latest/sample_repos.html) or [here](https://kbroman.org/blog/2019/02/18/omg_binder/)
+
+1. How to make an R kernel in Binder? You need the following files:
+    - Sample data
+    - A R kernel Jupyter Notebook _OR_ an R markdown file
+    - A `runtime.txt` file formatted like `r-<YYYY>-<MM>-<DD>`. This file will be used to install the libaries. This file is literally a one-liner containing`r-2019-05-09`.
+    - An `install.R` that will be executed for the build. The contents of an example are below.
+        
+        ```
+        install.packages("knitr")
+        install.packages("rmarkdown")
+        install.packages("vegan")
+        install.packages("ggplot2")
+        install.packages("ggpubr")
+        install.packages("reshape2")
+        install.packages("cowplot")
+        install.packages("superheat")
+        install.packages("plyr")
+        install.packages("dplyr")
+
+        source("http://www.bioconductor.org/biocLite.R")
+        biocLite("DESeq2")
+        biocLite("phyloseq")
+
+        install.packages("devtools")
+        devtools::install_github("benjjneb/decontam")
+
+        ```
+
+**IMPORTANT NOTE** 
+
+A. Once you copy your github repo link in Binder, you will need to copy the address that Binder creates (see pink arrow in the image below).
+
+![](https://i.imgur.com/JXluAta.png)
+
+B. Paste this link into your github repo's README and add `?urlpath=rstudio` at the end of the link so that when you share this Binder, the default console will be R studio instead of Jupyter notebook. To get fancy, you can link the Binder with the ![Binder](https://mybinder.org/badge_logo.svg)log. Use the code below to do so.
+
+```
+Click to launch Binder: [![Binder](https://mybinder.org/badge_logo.svg)]yy(https://mybinder.org/v2/gh/zeyaxue/Mock_Community2/master?urlpath=rstudio)
+```
+
+  
+2. How to make a Python
+    - An `environment.yml` containing all the Python libraries to install. You can quickly do so by running the following commands.
+        ```
+        source activate example-env
+        conda env export > environment.yml
+        ```
+    - Your Jupyter notebook. 
+    - Save the Binder generated link as described in the **IMPORTANT NOTE** above except do not change the ending. Just save the link as iS in the github repo's README.
 
