@@ -112,7 +112,7 @@ A. Once you copy your github repo link in Binder, you will need to copy the addr
 
 ![](https://i.imgur.com/JXluAta.png)
 
-B. Paste this link into your github repo's README and add `?urlpath=rstudio` at the end of the link so that when you share this Binder, the default console will be R studio instead of Jupyter notebook. To get fancy, you can link the Binder with the ![Binder](https://mybinder.org/badge_logo.svg)log. Use the code below to do so.
+B. Paste this link into your github repo's README and add `?urlpath=rstudio` at the end of the link so that when you share this Binder, the default console will be R studio instead of Jupyter notebook. To get fancy, you can link the Binder with the ![Binder](https://mybinder.org/badge_logo.svg) log. Use the code below to do so.
 
 ```
 Click to launch Binder: [![Binder](https://mybinder.org/badge_logo.svg)]yy(https://mybinder.org/v2/gh/zeyaxue/Mock_Community2/master?urlpath=rstudio)
