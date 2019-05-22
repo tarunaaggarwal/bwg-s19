@@ -3,14 +3,9 @@
 All materials from our sessions will be posted in this repository. 
 
 ---
----
----
----
+
 ### Week 1: [Introduction to NGS technologies and Linux Basics](https://github.com/tarunaaggarwal/bwg-s19/blob/master/presentations/Week1-Intro2NGStech-LinuxBasics.pdf)
 
----
----
----
 ---
 
 ### A. **How to generate and copy an SSH key to login into remote servers automatically**. More detailed instructions are [here](https://www.ssh.com/ssh/copy-id#sec-Setting-up-public-key-authentication).
@@ -53,20 +48,14 @@ You may have to enter your password again.
 
 
 ---
----
+___
 #### B. **Practice Makes Perfect** 
 It would be great if you are able to run through this [Software Carpentry Shell Novice Tutorial](http://swcarpentry.github.io/shell-novice/) before next week. This way we don't have to spend too much reviewing, and we can move into Qiime2 right away. 
 
 ---
----
----
----
 
 ### Week 2: [Introduction to QIIME2](https://github.com/tarunaaggarwal/bwg-s19/blob/master/presentations/Week1-Intro2NGStech-LinuxBasics.pdf)
 
----
----
----
 ---
 
 ### A. [QIIME2](https://qiime2.org/) is an open-source pipeline used to analyze and visualize microbial diversity. The biggest advantage of using Q2 is the support network. This tool is activately being developed and maintained. Most answers to your questions can be found at the [Q2 Google forum](https://forum.qiime2.org/). 
